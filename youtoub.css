@@ -1,0 +1,345 @@
+body {
+  background-color: black;
+  padding-top: 80px;
+  padding-left: 53px;
+}
+.paran {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  height: 100%;
+  width: 100%;
+}
+.entete {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: black;
+  width: 100%;
+  right: 0;
+  top: 0;
+  padding-top: 5px;
+  z-index: 1;
+}
+.logo {
+  background-color: aquamarine;
+  width: 160px;
+  min-width: 160px;
+  height: 35px;
+  margin-left: 6px;
+}
+.infodroite {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  right: 0;
+  background-color: none;
+  width: 200px;
+  height: 35px;
+  position: relative;
+}
+.qnot {
+  position: absolute;
+  color: white;
+  background-color: red;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 20px;
+  top: 5px;
+  left: 105px;
+}
+.qnot:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.creer {
+  background-color: aqua;
+  width: 80px;
+  height: 100%px;
+}
+.notif {
+  background-color: aqua;
+  width: 35px;
+  height: 100%px;
+}
+.compte {
+  background-color: aqua;
+  width: 35px;
+  height: 100%px;
+}
+.creer-im {
+  width: 80px;
+  height: 100%;
+}
+.notif-im {
+  width: 35px;
+  height: 100%;
+}
+.compte-im {
+  width: 35px;
+  height: 100%;
+}
+.recherche {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: none;
+  width: 600px;
+}
+.ba-recherche {
+  margin-top: 1px;
+  padding-left: 10px;
+  font-size: 15px;
+  color: aliceblue;
+  background-color: black;
+  height: 30px;
+  width: 0;
+  border: 1px solid white;
+  border-radius: 20px;
+  flex: 1;
+}
+.ba-recherche::placeholder {
+  color: rgb(133, 133, 134);
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 11px;
+}
+.bouton-recherche {
+  position: absolute;
+  background-color: grey;
+  top: 2px;
+  right: 1px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  border-radius: 0 20px 20px 0px;
+}
+.bouton-recherche:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.logo-youtoub {
+  width: 100%;
+  height: 100%;
+}
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: fixed;
+  top: 50px;
+  left: 5px;
+  background-color: black;
+  width: 30px;
+  height: 100%;
+}
+.acceuil {
+  background-color: aquamarine;
+  width: 100%;
+  height: 30px;
+}
+.shorts {
+  background-color: aquamarine;
+  width: 100%;
+  height: 30px;
+}
+.abonnement {
+  background-color: aquamarine;
+  width: 100%;
+  height: 30px;
+}
+.vous {
+  background-color: aquamarine;
+  width: 100%;
+  height: 30px;
+}
+.acceuil-im {
+  width: 100%;
+  height: 100%;
+}
+.shorts-im {
+  width: 100%;
+  height: 100%;
+}
+.abonnement-im {
+  width: 100%;
+  height: 100%;
+}
+.vous-im {
+  width: 100%;
+  height: 100%;
+}
+.menu-im {
+  object-fit: contain;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 30px;
+}
+.option {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  position: fixed;
+  top: 40px;
+  width: 100%;
+  padding-top: 5px;
+  left: 60px;
+  right: 0;
+  z-index: 1;
+}
+.opt {
+  color: rgb(255, 255, 255);
+  background-color: rgb(64, 63, 63);
+  height: 20px;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.opt:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+}
+.card {
+  height: 300px;
+  width: 300px;
+  min-width: 300px;
+  min-height: 300px;
+}
+.video-image {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+.cart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.pati2 {
+  width: 100%;
+
+  height: 150px;
+  display: flex;
+  position: relative;
+}
+.imaj-profil {
+  background-color: rgb(72, 97, 62);
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  border-radius: 40px;
+  position: relative;
+}
+
+.profil {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+.text-video-description {
+  width: 85%;
+  height: 150px;
+}
+p {
+  margin-top: 5px;
+  margin-left: 5px;
+  color: rgb(255, 255, 255);
+}
+.pati1 {
+  position: relative;
+}
+.minuteur {
+  position: absolute;
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+  border-radius: 5px;
+  width: 50px;
+  height: 20px;
+  color: aliceblue;
+  left: 240px;
+  top: 120px;
+}
+.text1 {
+  color: white;
+  position: absolute;
+  font-weight: normal;
+  font-size: 11px;
+  top: 25px;
+  left: 5px;
+}
+.text2 {
+  color: white;
+  position: absolute;
+  font-weight: normal;
+  font-size: 11px;
+  top: 40px;
+  left: 5px;
+}
+.text-video-description {
+  position: relative;
+}
+.descr {
+  margin-bottom: 0px;
+}
+.infosule {
+  visibility: hidden;
+  display: flex;
+  background-color: rgb(186, 186, 186);
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  height: 90px;
+  left: 30px;
+  border-radius: 0px 20px 20px 20px;
+}
+.infosule-profile {
+  background-color: black;
+  z-index: 1;
+  border-radius: 40px;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.info-profil {
+  border-radius: 40px;
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+}
+.infosule-texte {
+  background-color: none;
+  z-index: 1;
+  width: 140px;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 1px;
+}
+
+.imaj-profil:hover .infosule {
+  visibility: visible;
+}
+
+.info-texte {
+  margin-top: 5px;
+  color: black;
+  font-size: 15px;
+}
+@media (max-width: 500px) {
+  .option {
+    display: none;
+  }
+  .infodroite {
+    display: none;
+  }
+}
